@@ -4,11 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Quiz</title>
+  <title>Javascript Quiz</title>
   <link rel="stylesheet" href="./assets/reset.css">
   <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
-  <h1>Code Quiz</h1>
+  <header>
+    <a href="./highscores.html">View Highscores</a>
+    <p>Time: <span id="timer">0</span></p>
+  </header>
+  <section id="home">
+    <h1>Javascript Quiz</h1>
+    <p>Try to answer the following Javascript related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 5 seconds!</p>
+    <button id="start">Start Quiz</button>
+  </section>
+  <section id="quiz">
+    <p id="question">Question</p>
+    <div>
+      <button id="option-a">A</button>
+      <button id="option-b">B</button>
+      <button id="option-c">C</button>
+      <button id="option-d">D</button>
+    </div>
+  </section>
+  <script src="./assets/script.js"></script>
 </body>
 </html>
