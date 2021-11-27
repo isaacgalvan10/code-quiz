@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(150, 6, 150);
+  }
+}
+
+.highscores {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#playerName {
+  background-color: plum;
+  width: 50%;
+  margin-top: 40px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+
+.btn-wrapper {
+  margin-top: 40px;
+
+  button:nth-child(2) {
+    margin-left: 20px;
+  }
+}

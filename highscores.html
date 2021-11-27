@@ -6,10 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Code Quiz</title>
   <link rel="stylesheet" href="./assets/reset.css">
-  <link rel="stylesheet" href="./assets/styles.css">
+  <link rel="stylesheet" href="./assets/highscores.css">
 </head>
 <body>
-  <h1>Highscores</h1>
+  <section class="highscores">
+    <h1>Highscores</h1>
+    <p id="playerName">Player 1</p>
+    <div class="btn-wrapper">
+      <a href="/"><button class="btn">Go Back</button></a>
+      <button id="clear-scores" class="btn">Clear Highscores</button>
+    </div>
+  </section>
   <script src="./assets/highscores.js"></script>
 </body>
 </html>
