@@ -9,32 +9,34 @@
   <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
-  <header>
+  <header class="container">
     <a href="./highscores.html">View Highscores</a>
     <p>Time: <span id="countdown-timer"></span></p>
   </header>
-  <section id="home">
+  <section id="home" class="container">
     <h1>Javascript Quiz</h1>
     <p>Try to answer the following Javascript related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 5 seconds!</p>
     <button id="start" class="btn">Start Quiz</button>
   </section>
-  <section id="quiz">
+  <section id="quiz" class="container">
     <p id="question">Question</p>
     <div id="btn-options">
     </div>
   </section>
-  <section id="feedback-wrapper">
+  <section id="feedback-wrapper" class="container">
     <hr>
     <p id="feedback"></p>
   </section>
-  <section id="end-screen">
-    <h1>All done!</h1>
+  <section id="end-screen" class="container">
+    <h2>All done!</h2>
     <p>Your final score is <span id="score"></span></p>
-    <form action="./highscores.html">
+    <form  id="player-form">
       <input type="text" id="name" name="name">
-      <input type="submit" value="Submit">
+      <button type="submit" value="Submit" class="btn">Submit</button>
     </form>
   </section>
   <script src="./assets/script.js"></script>
 </body>
 </html>
+
+<!-- action="./highscores.html" -->

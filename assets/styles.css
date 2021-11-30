@@ -2,6 +2,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,10 +15,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 1640px;
-  margin: 0 auto;
   height: 100px;
-  padding: 40px;
 }
 
 p {
@@ -47,9 +50,6 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 1640px;
-  margin: 0 auto;
-  padding: 40px;
 }
 
 #home h1 {
@@ -63,12 +63,6 @@ p {
 
 #home #start {
   margin-top: 40px;
-}
-
-#quiz {
-  max-width: 1640px;
-  margin: 0 auto;
-  padding: 40px;
 }
 
 #quiz #btn-options {
@@ -89,9 +83,33 @@ p {
   margin-top: 20px;
 }
 
-#feedback-wrapper {
-  max-width: 1640px;
-  margin: 0 auto;
-  padding: 40px;
+#end-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#end-screen h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#end-screen form {
+  margin-top: 40px;
+}
+
+#end-screen form input {
+  padding: 12px 10px;
 }
 /*# sourceMappingURL=styles.css.map */

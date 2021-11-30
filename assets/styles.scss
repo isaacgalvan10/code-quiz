@@ -2,13 +2,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
-  max-width: 1640px;
-  margin: 0 auto;
   height: 100px;
-  padding: 40px;
 }
 
 p {
@@ -34,9 +37,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1640px;
-  margin: 0 auto;
-  padding: 40px;
 
   h1 {
     font-size: 50px;
@@ -53,10 +53,6 @@ p {
 }
 
 #quiz {
-  max-width: 1640px;
-  margin: 0 auto;
-  padding: 40px;
-
   #btn-options {
     margin-top: 20px;
     display: flex;
@@ -69,8 +65,23 @@ p {
   }
 }
 
-#feedback-wrapper {
-  max-width: 1640px;
-  margin: 0 auto;
-  padding: 40px;
+#end-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  form {
+    margin-top: 40px;
+
+    input {
+      padding: 12px 10px;
+    }
+  }
 }
