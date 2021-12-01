@@ -1,6 +1,7 @@
 # code-quiz
 
 This is a Code Quiz game built with Javascript.
+https://isaacgalvan10.github.io/code-quiz/
 
 ## User Story
 
