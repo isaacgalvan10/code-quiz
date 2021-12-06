@@ -41,10 +41,16 @@ p {
   }
 }
 
-#playerName {
+#players-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.player-name {
   background-color: plum;
   width: 50%;
-  margin-top: 40px;
+  margin-top: 10px;
   padding: 20px;
   font-weight: bold;
 }

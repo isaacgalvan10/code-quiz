@@ -168,6 +168,13 @@ function addPlayer(name) {
     addToLocalStorage(playerNames);
   };
   playerNameInput.value = '';
+  /*
+    {
+      initials: name,
+      score: count
+    }
+  */
+ 
   console.log(playerNames);
 };
 

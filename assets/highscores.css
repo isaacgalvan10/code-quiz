@@ -56,10 +56,21 @@ p {
           align-items: center;
 }
 
-#playerName {
+#players-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+}
+
+.player-name {
   background-color: plum;
   width: 50%;
-  margin-top: 40px;
+  margin-top: 10px;
   padding: 20px;
   font-weight: bold;
 }
